@@ -10,13 +10,12 @@ import CarProducts from './carproducts';
 
 function App() {
   return (
-    
+
     <Router>
       <div className="App">
-       
         <NavBar />
         <Routes>
-          <Route path="/" index element={<Home />}  />
+          <Route path="/" index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/news" element={<News />} />
           <Route path="/contacts" element={<Contact />} />
