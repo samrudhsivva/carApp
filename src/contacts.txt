@@ -1,0 +1,3 @@
+{"name": "John Doe", "email": "john.doe@example.com", "phone": "555-0100"}
+{"name": "Jane Smith", "email": "jane.smith@example.com", "phone": "555-0101"}
+{"name": "Emily Jones", "email": "emily.jones@example.com", "phone": "555-0102"}

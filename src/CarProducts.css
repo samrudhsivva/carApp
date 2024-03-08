@@ -1,0 +1,106 @@
+/* Container */
+.car-products-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+.car-products-container h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Category Heading */
+.car-category h3 {
+    color: #007bff;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.car-category h3::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    background-color: #007bff;
+}
+
+/* Listings Container */
+.car-listings {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Listing */
+.car-listing {
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-listing:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.15);
+}
+
+.car-listing h4 {
+    color: #333;
+    margin-top: 0;
+}
+
+.car-listing p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .car-listings {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car-listing {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Modern Touches */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+input[type="text"].search-bar {
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.1);
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 40px;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"].search-bar:focus {
+    box-shadow: inset 8px 8px 25px rgba(0,0,0,0.15);
+}
