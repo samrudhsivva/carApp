@@ -1,3 +1,2 @@
-{"name": "John Doe", "email": "john.doe@example.com", "phone": "555-0100"}
-{"name": "Jane Smith", "email": "jane.smith@example.com", "phone": "555-0101"}
-{"name": "Emily Jones", "email": "emily.jones@example.com", "phone": "555-0102"}
+Samrudh Sivva, samrudh5000@gmail.com, 4084229967
+Jane Smith, jane@example.com, 9876543210
